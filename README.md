@@ -1,2 +1,1 @@
-# kathrynherod.github.io
-personal website
+# Basic-Portfolio
