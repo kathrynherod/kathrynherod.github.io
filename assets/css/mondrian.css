@@ -6,13 +6,20 @@ body {
     font-family: "Roboto" serif;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
 }
 h2 {
     font-size: 6vh!important;
 }
+
 .padd-this {
 	padding: 5px!important;
 }
@@ -47,6 +54,11 @@ h2 {
 
 .no-padding {
     padding: 0px!important;
+}
+.icons {
+    max-height: 100%;
+    width: auto;
+    padding: 5px;
 }
 
 .h-7-5 {
@@ -96,9 +108,11 @@ h2 {
     height: 100%;
     border: 5px solid black;
     padding: 0px!important;
-    color: white!important;
+    color: white;
 }
-
+.gray {
+    color: gray;
+}
 .white {
     background-color: white!important;
 }
@@ -118,7 +132,10 @@ h2 {
 .red {
     background-color: red!important;
 }
-
+.w-o-r {
+    margin-top:1vh!important;
+    padding: 0px;
+}
 @media only screen and (max-width: 980px) {
     .white,
     .yellow,
@@ -138,6 +155,7 @@ h2 {
     .blue,
     .red {
         border: 2px solid black;
+        overflow-y: scroll;
     }
     .all-col {
         height: 50vh;
@@ -153,7 +171,11 @@ h2 {
     h3 {
         font-size: 4vw!important;
         line-height: 5vw!important;
-        margin-top: -2vh!important;
+        margin-top: 0vh!important;
+        padding:0px;
+    }
+    .w-o-r {
+        margin: 0vh!important;
     }
 }
 
@@ -163,5 +185,11 @@ h2 {
     .blue,
     .red {
         border: 2px solid black;
+    }
+    p {
+        font-size: 12px;
+        line-height: 2vh;
+        margin-top:-5px!important;
+
     }
 }
