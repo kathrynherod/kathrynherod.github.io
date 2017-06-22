@@ -6,13 +6,7 @@ body {
     font-family: "Roboto" serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
 }
@@ -102,7 +96,7 @@ h2 {
     height: 100%;
     border: 5px solid black;
     padding: 0px!important;
-    color: white;
+    color: white!important;
 }
 
 .white {
