@@ -205,7 +205,7 @@ jQuery(function ($) {
     
         var iframe = document.getElementById('nofocusvideo');
         // $f == Froogaloop
-        var player = $f(iframe);
+        var player = $(iframe);
 
         $('.modal').on('hidden.bs.modal', function () {
         player.api('pause');
@@ -226,7 +226,7 @@ jQuery(function ($) {
     $(window).load(function() {
 
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-         
+            
         }else {
             $.stellar({
                 horizontalScrolling: false,
